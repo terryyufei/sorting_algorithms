@@ -11,7 +11,6 @@ void bubble_sort(int *array, size_t size)
 	size_t i, j;
 	int temp;
 	int swapped;
-	int check = 1;
 
 	if (array == NULL || size < 2)
 		return;
@@ -39,7 +38,7 @@ void bubble_sort(int *array, size_t size)
 		/*If no swaps occurred, the array is already sorted*/
 		if (swapped == 0)
 		{
-			check = check * 0;
+			return;
 		}
 	}
 }
