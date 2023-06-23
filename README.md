@@ -12,6 +12,20 @@
 * Now, repeat steps 2-5 for the remaining unsorted portion of the list, excluding the last element (since it is already in its correct sorted position).
 * Keep repeating steps 2-6 until the entire list is sorted.
 
+## Insertion Sort
+* Insertion Sort is a simple comparison-based sorting algorithm that builds the final sorted array one element at a time. It works by iteratively inserting each element into its correct position within the already sorted portion of the array. 
+
+### Here's a step by step explanation of how insertion sort works:
+* Start with the second element (index 1) of the array and consider it as the "key" to be inserted into the sorted portion of the array.
+
+* Compare the key with each element in the sorted portion of the array, moving elements that are greater than the key one position to the right.
+
+* Repeat step 2 until you find the correct position for the key or reach the beginning of the sorted portion.
+
+* Insert the key into its correct position.
+
+* Move to the next element (increment the index) and repeat steps 2-4 until all elements are in their correct positions.
+
 ## Quick Sort
 * QuickSort is a widely used sorting algorithm that follows the divide-and-conquer approach. It is known for its       efficiency and typically outperforms other sorting algorithms, such as Bubble Sort or Insertion Sort, especially when * dealing with large datasets.
 
