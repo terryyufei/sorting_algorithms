@@ -1,5 +1,17 @@
 # 0x1B. C - Sorting algorithms & Big O
 
+## Bubble Sort
+* Bubble sort is a simple sorting algorithm that repeatedly steps through a list of elements to be sorted, compares adjacent elements, and swaps them if they are in the wrong order. This process is repeated until the entire list is sorted. The algorithm gets its name from the way smaller elements "bubble" to the top of the list.
+
+### Here's a step-by-step explanation of how bubble sort works:
+* Start with an unsorted list of elements.
+* Compare the first element with the second element. If the first element is greater than the second element, swap them.
+* Move to the next pair of elements (the second and the third) and compare them. Again, swap them if they are in the wrong order.
+* Repeat this process of comparing and swapping adjacent elements until you reach the end of the list.
+* At this point, the largest element in the unsorted portion of the list will be at the end of the list.
+* Now, repeat steps 2-5 for the remaining unsorted portion of the list, excluding the last element (since it is already in its correct sorted position).
+* Keep repeating steps 2-6 until the entire list is sorted.
+
 ## Quick Sort
 * QuickSort is a widely used sorting algorithm that follows the divide-and-conquer approach. It is known for its       efficiency and typically outperforms other sorting algorithms, such as Bubble Sort or Insertion Sort, especially when * dealing with large datasets.
 
